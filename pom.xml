@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.acurnicov</groupId>
     <artifactId>spring-security-app</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>spring-security-app</name>
     <description>Spring Security Application</description>
     <properties>
@@ -35,8 +35,8 @@
         </dependency>
 
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
         <dependency>
